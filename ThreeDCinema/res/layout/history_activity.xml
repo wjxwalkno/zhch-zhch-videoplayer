@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  
+    android:background="@drawable/threedcinema_bg"
+    >
+	<ImageView 
+        android:id="@+id/history_fanhui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:src="@drawable/xiazaifanhui"
+                
+                />
+	<TextView
+	    android:id="@+id/history_title"
+	     android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/history_fanhui"
+        android:text="@string/history_video"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+      
+	    />
+	<ImageView  
+        android:id="@+id/jinqituichu_image"  
+        android:layout_below="@id/gongneng_fanhui"
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:scaleType="center"
+        
+        android:layout_centerHorizontal="true"  
+        android:layout_centerVertical="true"
+        android:src="@drawable/preview_second"
+       
+        /> 
+
+</RelativeLayout>

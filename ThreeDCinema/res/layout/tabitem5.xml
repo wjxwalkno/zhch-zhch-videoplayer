@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+     <TextView
+        android:id="@+id/btncontent1"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@drawable/second_menu_click"
+        android:gravity="center"
+        android:scaleType="fitXY"
+        android:text="@string/item_duanpian"
+        android:textColor="@android:color/white"
+        android:textSize="25px" />
+
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="5px"
+        android:layout_gravity="bottom"
+        android:scaleType="fitXY"
+        android:src="@drawable/second_menua_click" />
+</LinearLayout>

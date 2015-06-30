@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">3DCinema</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="item_set">设置</string>
+    <string name="item_tuijian">推荐</string>
+    <string name="item_dianying">电影</string>
+    <string name="item_pianhua">片花</string>
+    <string name="item_duanpian">短片</string>
+    <string name="item_yanshi">演示</string>
+    <string name="picture_text">暂无</string>
+    <string name="localplay">本地播放</string>
+    <string name="download">正在下载</string>
+        
+    <string name="title_file">本地视频</string>
+    <string name="title_online">在线视频</string>
+    <string name="init_decoders">初始化播放器...</string>
+    <string name="loadinfo">载入中，请稍后...</string>
+    <string name="file_oper">文件操作</string>
+    <string name="file_rename">重命名</string>
+    <string name="file_rename_failed">重命名失败</string>
+    <string name="file_rename_exists">文件已存在</string>
+    <string name="file_delete">删除</string>
+    <string name="file_delete_confirm">确定删除 (%s) ？</string>
+    <string name="video_layout_loading">正在缓冲...</string>
+    <string name="vitamio_theme_app_name">VPlayer codec</string>
+    <string name="VideoView_error_title">Cannot play video</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">Sorry, this video is not valid for streaming to
+		this device.</string>
+    <string name="VideoView_error_text_unknown">对不起,这个视频不能播放。</string>
+    <string name="VideoView_error_button">OK</string>
+    <string name="mediacontroller_play_pause">Play/Pause</string>
+    <string name="imageview_content_description"></string>
+    <string name="content_desc_lock">锁定</string>
+    <string name="video_original">100%</string>
+    <string name="video_fit_screen">全屏</string>
+    <string name="video_stretch">拉伸</string>
+    <string name="video_crop">裁剪</string>
+    <string name="video_screen_locked">屏幕已锁定</string>
+    <string name="video_screen_unlocked">屏幕锁定已解除</string>
+    <string name="video_layout_buffering_progress">缓冲: %.2f%%</string>
+    <string name="video_cannot_play">对不起,这个视频不能播放。</string>
+    <string name="file_explorer_sdcard_not_available">SD卡无法读取</string>
+    <string name="video_screenshot_save_in">截图存放在 %s.</string>
+    <string name="video_screenshot_failed">截图失败</string>
+    <string name="closing_file">正在退出…</string>
+    <string name="pulltorefresh">松开刷新</string>
+    <string name="lastupdate">更新列表</string>
+    
+        <string name="zhuyan">主演：</string>
+    <string name="daoyan">导演：</string>
+    <string name="nianfen">年份：</string>
+    <string name="diqu">地区：</string>
+    <string name="yuyan">语言：</string>
+    <string name="juqingjieshao">剧情介绍：</string>
+    <string name="bofang">播放</string>
+    
+    <string name="softdec">软解码</string>
+    <string name="hwdec">硬解码</string>
+    
+    <string name="soft_version">当前版本号为v1.2，已为最新版本，无需更新</string>
+    <string name="soft_help">请参考安装文档</string>
+    <string name="soft_aboutus">河南三阳</string>
+    
+    <string name="history_video">最近观看影片</string>
+    <string name="sousuo_video">影片搜索</string>
+    <string name="xiazai_video">视频下载</string>
+    <string name="shaixuan_video">影片筛选</string>
+    
+    <string name="moren_path">/storage/sdcard0/</string>
+    
+    <string name="url_server">http://www.3dxsj.com/apk_update/version.xml</string>
+    
+</resources>

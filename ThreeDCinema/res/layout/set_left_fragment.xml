@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>  
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="15dp"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical">
+ <LinearLayout 
+    android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+      android:orientation="vertical" >
+  
+      <ImageView
+         android:id="@+id/softSet"
+        
+         android:layout_marginTop="10dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"           
+         android:src="@drawable/set_btn_select"         
+          />    
+      <ImageView
+         android:id="@+id/cleanSet"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"           
+         android:src="@drawable/set_btn_select_clean"         
+          />    
+      <ImageView
+         android:id="@+id/updateSet"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"           
+         android:src="@drawable/set_btn_select_update"         
+       />  
+      <ImageView
+         android:id="@+id/helpSet"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"           
+         android:src="@drawable/set_btn_select_help"         
+       />   
+      <ImageView
+         android:id="@+id/aboutSet"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"           
+         android:src="@drawable/set_btn_select_about"         
+       />    
+<!--              <ImageView -->
+<!--          android:id="@+id/qw" -->
+        
+<!--          android:layout_marginTop="10dp" -->
+<!--          android:layout_width="wrap_content" -->
+<!--          android:layout_height="wrap_content" -->
+<!--          android:layout_gravity="center"            -->
+<!--          android:src="@drawable/set_btn_select"          -->
+<!--           />     -->
+<!--       <ImageView -->
+<!--          android:id="@+id/qqr" -->
+<!--          android:layout_width="wrap_content" -->
+<!--          android:layout_height="wrap_content" -->
+<!--          android:layout_gravity="center"            -->
+<!--          android:src="@drawable/set_btn_select"          -->
+<!--           />     -->
+<!--       <ImageView -->
+<!--          android:id="@+id/qwrqr" -->
+<!--          android:layout_width="wrap_content" -->
+<!--          android:layout_height="wrap_content" -->
+<!--          android:layout_gravity="center"            -->
+<!--          android:src="@drawable/set_btn_select"          -->
+<!--        />   -->
+<!--       <ImageView -->
+<!--          android:id="@+id/qwrqwr" -->
+<!--          android:layout_width="wrap_content" -->
+<!--          android:layout_height="wrap_content" -->
+<!--          android:layout_gravity="center"            -->
+<!--          android:src="@drawable/set_btn_select"          -->
+<!--        />    -->
+<!--       <ImageView -->
+<!--          android:id="@+id/rwr" -->
+<!--          android:layout_width="wrap_content" -->
+<!--          android:layout_height="wrap_content" -->
+<!--          android:layout_gravity="center"            -->
+<!--          android:src="@drawable/set_btn_select"          -->
+<!--        />          -->
+ 
+  </LinearLayout>
+ </ScrollView>
